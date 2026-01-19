@@ -1,0 +1,96 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# PyTorch
+*.pth
+*.pt
+*.onnx
+*.engine
+*.tflite
+*.pb
+
+# Jupyter Notebook
+.ipynb_checkpoints
+# Note: We keep *.ipynb files as they can be valuable learning resources
+# Only exclude checkpoint directories
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.mp4
+*.avi
+*.mov
+
+# Large files
+*.zip
+*.tar.gz
+*.tar
+*.rar
+*.7z
+
+# Logs
+*.log
+logs/
+wandb/
+runs/
+
+# Datasets (keep structure but ignore large files)
+datasets/*.jpg
+datasets/*.png
+datasets/*.txt
+datasets/*.json
+datasets/*.xml
+
+# Models (keep READMEs but ignore weights)
+models/*.pth
+models/*.pt
+models/*.weights
+models/*.onnx
+
+# Cache
+.cache/
+*.cache
