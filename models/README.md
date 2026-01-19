@@ -29,9 +29,13 @@ This directory contains information about pre-trained models and model weights.
 ## 模型下载 Model Download
 
 ### 官方权重 Official Weights
-- YOLOv8: https://github.com/ultralytics/assets/releases
-- YOLOv5: https://github.com/ultralytics/yolov5/releases
-- YOLOv7: https://github.com/WongKinYiu/yolov7/releases
+权重文件可以从以下官方发布页面下载，选择适合您需求的模型大小：
+
+Weights can be downloaded from the following official release pages, select the model size that fits your needs:
+
+- **YOLOv8**: https://github.com/ultralytics/assets/releases (下载 yolov8n.pt, yolov8s.pt 等)
+- **YOLOv5**: https://github.com/ultralytics/yolov5/releases (下载 yolov5n.pt, yolov5s.pt 等)
+- **YOLOv7**: https://github.com/WongKinYiu/yolov7/releases (下载 yolov7.pt, yolov7-tiny.pt 等)
 
 ### 使用方法 Usage
 ```python

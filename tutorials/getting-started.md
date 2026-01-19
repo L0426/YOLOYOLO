@@ -77,18 +77,18 @@ model.predict('test.jpg')
 ## 5. 常用资源
 
 ### 官方资源
-- YOLOv8文档：https://docs.ultralytics.com
-- YOLOv5仓库：https://github.com/ultralytics/yolov5
-- YOLOv8仓库：https://github.com/ultralytics/ultralytics
+- **YOLOv8文档**：https://docs.ultralytics.com - 最新的官方文档，包含API参考和使用示例
+- **YOLOv5仓库**：https://github.com/ultralytics/yolov5 - 经典的PyTorch实现，有详细的教程
+- **YOLOv8仓库**：https://github.com/ultralytics/ultralytics - 最新版本的实现和工具
 
 ### 学习材料
-- arXiv论文：https://arxiv.org
-- Papers with Code：https://paperswithcode.com
+- **arXiv论文**：https://arxiv.org - 查找和阅读原始研究论文
+- **Papers with Code**：https://paperswithcode.com - 论文代码实现和性能对比
 
 ### 社区
-- GitHub Discussions
-- Stack Overflow
-- Reddit r/computervision
+- **GitHub Discussions** - 各YOLO项目的讨论区，可以提问和交流
+- **Stack Overflow** - 编程问题解答平台
+- **Reddit r/computervision** - 计算机视觉社区讨论
 
 ## 6. 实用技巧
 

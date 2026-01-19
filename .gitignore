@@ -40,7 +40,8 @@ venv.bak/
 
 # Jupyter Notebook
 .ipynb_checkpoints
-*.ipynb
+# Note: We keep *.ipynb files as they can be valuable learning resources
+# Only exclude checkpoint directories
 
 # IDEs
 .vscode/
