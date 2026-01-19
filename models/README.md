@@ -33,9 +33,23 @@ This directory contains information about pre-trained models and model weights.
 
 Weights can be downloaded from the following official release pages, select the model size that fits your needs:
 
-- **YOLOv8**: https://github.com/ultralytics/assets/releases (下载 yolov8n.pt, yolov8s.pt 等)
-- **YOLOv5**: https://github.com/ultralytics/yolov5/releases (下载 yolov5n.pt, yolov5s.pt 等)
-- **YOLOv7**: https://github.com/WongKinYiu/yolov7/releases (下载 yolov7.pt, yolov7-tiny.pt 等)
+- **YOLOv8**: https://github.com/ultralytics/assets/releases 
+  - 下载文件：yolov8n.pt (nano), yolov8s.pt (small), yolov8m.pt (medium), yolov8l.pt (large), yolov8x.pt (xlarge)
+  
+- **YOLOv5**: https://github.com/ultralytics/yolov5/releases 
+  - 下载文件：yolov5n.pt, yolov5s.pt, yolov5m.pt, yolov5l.pt, yolov5x.pt
+  
+- **YOLOv7**: https://github.com/WongKinYiu/yolov7/releases 
+  - 下载文件：yolov7.pt, yolov7-tiny.pt, yolov7x.pt
+
+### 命令行下载 Command Line Download
+```bash
+# 使用wget下载（Linux/Mac）
+wget https://github.com/ultralytics/assets/releases/download/v0.0.0/yolov8n.pt
+
+# 使用curl下载
+curl -L https://github.com/ultralytics/assets/releases/download/v0.0.0/yolov8n.pt -o yolov8n.pt
+```
 
 ### 使用方法 Usage
 ```python

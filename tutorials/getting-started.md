@@ -41,8 +41,8 @@ results[0].show()
 ```python
 from ultralytics import YOLO
 
-# 加载模型
-model = YOLO('yolov8n.yaml')
+# 从预训练模型开始训练（推荐）
+model = YOLO('yolov8n.pt')
 
 # 训练
 model.train(data='dataset.yaml', epochs=100, imgsz=640)
